@@ -1,6 +1,8 @@
 ##  ![LakoMoor Dev](image/logo.png) 
 **LKEngine**
 
+![BUILD](https://img.shields.io/appveyor/build/LAKOMOOR/LKENGINE?logo=CMAKE&style=plastic)
+
 A Work-In-Progress. LKEngine- Game engine based on C++ and SFML
 
 ## Screenshot
