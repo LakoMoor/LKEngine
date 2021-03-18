@@ -12,4 +12,4 @@ A Work-In-Progress.
 
 ## License
 
-LKEngine source code is licensed under the terms of the [GNU AGPLv3 License](https://github.com/lakomoor/lkengine/license)
+**LKEngine source code is licensed under the terms of the [GNU AGPLv3 License](https://github.com/lakomoor/lkengine/license)**
