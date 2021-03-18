@@ -1,4 +1,4 @@
-##  ![LakoMoor Dev](image/logo.png) LKEngine
+##  ![LakoMoor Dev](image/logo.png) 
 
 A Work-In-Progress. LKEngine- Game engine based on C++ and SFML
 
