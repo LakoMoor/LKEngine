@@ -1,10 +1,10 @@
 ## LKEngine
 
-A Work-In-Progress. 
+A Work-In-Progress. LKEngine- Game engine based on C++ and SFML
 
 ## State
 
-A Work-In-Progress.
+A Work-In-Progress. **Don't use on College or University "MIRAS"**
 
 ## Libraries
 * [LKEngine](https://github.com/lakomoor/lkengine)
