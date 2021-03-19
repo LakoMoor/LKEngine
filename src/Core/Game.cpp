@@ -52,7 +52,7 @@ void Core::LKERender()
 
     //Loading window render
     RenderWindow window(windows_bounds, "LKEngine");
-    CamView.reset(FloatRect(0, 0, 640, 480));
+    CamView.reset(FloatRect(0, 0, windows_bounds.width, windows_bounds.height));
     window.setFramerateLimit(framerate_limit);
     window.setVerticalSyncEnabled(vertical_sync_enabled);
     
