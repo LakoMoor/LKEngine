@@ -13,19 +13,19 @@
  ///                                           ///
 /////////////////////////////////////////////////
 
- Player p("hero.png",250,250,96.0,96.0);
- 
+Player p("hero.png",250,250,96.0,96.0);
+
 
 void Core::LKERender()
 {
     //TEXT
     Font font;
     Text text("", font, 20);
-    if (font.loadFromFile("res/CyrilicOld.TTF")) {
+    if (font.loadFromFile("res/font.ttf")) {
       cout << "SUCC FONT LOAD" << endl;
     } else {
       cout << "ERR:FONT" << endl;
-      window.close();
+      GameErrorClose = true; //ERROR close window
     }
 
     //
@@ -107,6 +107,13 @@ void Core::LKERender()
         //
 
         //
+        if(GameErrorClose == true)
+        {
+            window.close();
+        }
+        //
+
+        //
         if(p.life)
             GameTime = GameTimeClock.getElapsedTime().asSeconds();
         //
@@ -182,6 +189,7 @@ void Core::LKEControls()
         //if (Mouse::isButtonPressed(Mouse::Left)){this->herosprite->setColor(Color::Blue);}
         //if (Mouse::isButtonPressed(Mouse::Right)){this->herosprite->setColor(Color::White);}
     }
+    GetPlayerCorView(p.GetPlayerCoordinateX(), p.GetPlayerCoordinateY());
 }
 
 void Core::LKESprite()
@@ -218,7 +226,7 @@ void Core::LKETextures()
     if(!herotexture.loadFromFile("res/hero.png"))
     {        
         cout << "ERR:HERO" << endl;
-        window.close();
+        GameErrorClose = true; //ERROR close window
     }
     else 
     {
@@ -228,7 +236,7 @@ void Core::LKETextures()
     if(!mapTexture.loadFromFile("res/grass.png"))
     {        
         cout << "ERR:SKY" << endl;
-        window.close();
+        GameErrorClose = true; //ERROR close window    
     }
     else 
     {
@@ -238,7 +246,7 @@ void Core::LKETextures()
     if(!maptex.loadFromFile("res/map.png"))
     {        
         cout << "ERR: MAP" << endl;
-        window.close();
+        GameErrorClose = true; //ERROR close window
     }
     else 
     {
