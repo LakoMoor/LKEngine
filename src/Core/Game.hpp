@@ -45,6 +45,8 @@ Texture herotexture;
 Texture mapTexture;
 Texture maptex;
 
+bool GameErrorClose = false;
+
 Clock clock;
 Clock GameTimeClock;
 float time;
