@@ -67,6 +67,16 @@ public:
             speed = 0;
         }
     }
+    
+        float GetPlayerCoordinateX()
+    {
+        return x;
+    }
+
+    float GetPlayerCoordinateY()
+    {
+        return y;
+    }
 
     void InteractionMap()
     {
