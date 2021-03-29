@@ -19,4 +19,4 @@ A Work-In-Progress. **Don't use on College or University "MIRAS"**
 
 ## License
 
-`LKEngine` source code is licensed under the terms of the [GNU AGPLv3 License](https://github.com/lakomoor/lkengine/LICENSE)
+`LKEngine` source code is licensed under the terms of the [GNU AGPLv3 License](https://github.com/LakoMoor/LKEngine/blob/master/LICENSE)
