@@ -5,7 +5,6 @@
 
 #include "../State/State.hpp"
 
-
 class Core
 {
 
@@ -20,6 +19,7 @@ void LKEControls();
 void LKEClock();
 void LKETimeGame();
 void LKEFont();
+void LKEDiscord();
 
 void LKEHero();
 void LKEMap();
@@ -55,6 +55,7 @@ int GameTime = 0;
 float heroteleporttimer = 0;
 float CurrentFrame=0;
 //Player p;
+
 
 };
 
