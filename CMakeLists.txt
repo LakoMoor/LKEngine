@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(LKEngine VERSION 0.2.0)
 
-add_executable(LKEngine src/main.cpp src/Core src/Discord/Discord.cpp src/Discord/Discord.hpp src/Core/Game.cpp src/Core/Game.hpp src/Player/view.hpp)
+add_executable(LKEngine src/main.cpp src/Core src/Discord/Discord.cpp src/Discord/Discord.hpp src/Core/Game.cpp src/Core/Game.hpp src/Player/View.hpp)
 
 add_subdirectory(lib/SFML)
 add_subdirectory(lib/discord-rpc)
