@@ -1,3 +1,6 @@
 [submodule "lib/SFML"]
 	path = lib/SFML
 	url = https://github.com/LakoMoor/SFML
+[submodule "lib/discord-rpc"]
+	path = lib/discord-rpc
+	url = https://github.com/LakoMoor/discord-rpc
