@@ -2,11 +2,7 @@
 //#include "../Config/map.hpp"
 #include "../Player/View.hpp"
 #include "../Player/Player.hpp"
-#include <SFML/Graphics/Color.hpp>
-#include <SFML/Graphics/Font.hpp>
-#include <SFML/Graphics/Rect.hpp>
-#include <SFML/Graphics/Text.hpp>
-#include <sstream>
+#include "../Discord/Discord.hpp"
     /////////////////////////////////////////////////
    ///              LKEngine                     ///
   /////////////////////////////////////////////////
@@ -70,6 +66,7 @@ void Core::LKERender()
 	{
         timeInGame;
         LKEClock();
+        LKEDiscord();
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
@@ -288,8 +285,17 @@ void Core::LKEFrame()
         CurrentFrame -= 3;
 }
 
+void Core::LKEDiscord()
+{
+    Discord d;
+    d.Init();
+    d.Update();
+}
+
 Core::Core()
 {
+    system("clear");
+    system("clr");
     this -> LKERender();
 }
 
