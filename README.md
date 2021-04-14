@@ -16,6 +16,8 @@ A Work-In-Progress. **Don't use on College or University "MIRAS"**
 ## Libraries
 * [LKEngine](https://github.com/lakomoor/lkengine)
   * [SFML](https://github.com/LakoMoor/SFML)
+  * [ImGui](https://github.com/LakoMoor/imgui)
+    *[ImGui-SFML](https://github.com/LakoMoor/imgui-sfml) 
   * [DiscordRPC](https://github.com/LakoMoor/discord-rpc)
 
 ## License
