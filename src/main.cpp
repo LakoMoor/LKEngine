@@ -9,8 +9,7 @@
 
 int main()
 {
-    system("clear");
-    system("clr");
+
     Core core;
-	return 0;
+    return 0;
 }
